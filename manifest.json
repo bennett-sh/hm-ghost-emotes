@@ -1,10 +1,73 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.1.0",
-	"id": "BSh.AnIDForTheMod",
-	"name": "Incredible Mod",
-	"description": "A truly amazing mod",
+	"id": "BSh.GhostEmotes",
+	"name": "Ghost Emotes",
+	"description": "This mod restores Hitman 2's Emote Menu, which was available in Ghost Mode.",
 	"authors": ["BSh"],
-	"contentFolders": ["content", "content.generated/content"],
-	"frameworkVersion": "2.25.1"
+	"contentFolders": ["content.generated/content"],
+	"frameworkVersion": "2.25.1",
+	"localisedLines": {
+		"002D645EB75FC9BC": "UI_GHOST_EMOTES"
+	},
+	"localisation": {
+		"english": {
+			"UI_GHOST_EMOTES": "Ghost Emotes"
+		},
+		"german": {
+			"UI_GHOST_EMOTES": "Geist Emotes"
+		}
+	},
+	"options": [
+		{
+			"name": "Camera Switch",
+			"group": "Key",
+			"type": "select",
+			"contentFolders": ["content.generated/CamSwitch"],
+			"enabledByDefault": true,
+			"tooltip": "\"V\" on PC"
+		},
+		{
+			"name": "Drag/Drop Body",
+			"group": "Key",
+			"type": "select",
+			"contentFolders": ["content.generated/DragDropBody"],
+			"tooltip": "\"B\" on PC"
+		},
+		{
+			"name": "Instinct",
+			"group": "Key",
+			"type": "select",
+			"contentFolders": ["content.generated/InstinctMode"],
+			"tooltip": "\"Control\" on PC"
+		},
+		{
+			"name": "Reload",
+			"group": "Key",
+			"type": "select",
+			"contentFolders": ["content.generated/Reload"],
+			"tooltip": "\"R\" on PC"
+		},
+		{
+			"name": "Sneak",
+			"group": "Key",
+			"type": "select",
+			"contentFolders": ["content.generated/SneakToggle"],
+			"tooltip": "\"C\" on PC"
+		},
+		{
+			"name": "Surrender",
+			"group": "Key",
+			"type": "select",
+			"contentFolders": ["content.generated/Surrender"],
+			"tooltip": "\"X\" on PC"
+		},
+		{
+			"name": "Disguise",
+			"group": "Key",
+			"type": "select",
+			"contentFolders": ["content.generated/TakeDisguise"],
+			"tooltip": "\"T\" on PC"
+		}
+	]
 }

@@ -13,14 +13,14 @@
     "dev": "concurrently \"pnpm run build:watch\" \"pnpm run start:watch\""
   },
   "devDependencies": {
-    "@types/node": "^20.1.4",
+    "@types/node": "^20.2.1",
     "concurrently": "^8.0.1",
     "nodemon": "^2.0.22",
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "glob": "^10.2.4",
-    "quickentity-script": "^2.0.1",
+    "glob": "^10.2.6",
+    "quickentity-script": "^2.1.5",
     "repository-script": "^1.0.15"
   }
 }
