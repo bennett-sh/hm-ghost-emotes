@@ -1,12 +1,12 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"id": "BSh.GhostEmotes",
 	"name": "Ghost Emotes",
 	"description": "This mod restores Hitman 2's Emote Menu, which was available in Ghost Mode.",
 	"authors": ["BSh"],
 	"contentFolders": ["content.generated/content"],
-	"frameworkVersion": "2.25.1",
+	"frameworkVersion": "2.26.1",
 	"localisedLines": {
 		"002D645EB75FC9BC": "UI_GHOST_EMOTES"
 	},
@@ -69,5 +69,6 @@
 			"contentFolders": ["content.generated/TakeDisguise"],
 			"tooltip": "\"T\" on PC"
 		}
-	]
+	],
+	"updateCheck": "https://github.com/bennett-sh/hm-ghost-emotes/releases/latest/download/updates.json"
 }
