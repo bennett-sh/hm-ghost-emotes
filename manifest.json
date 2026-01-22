@@ -1,11 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"authors": [
-		"BSh"
-	],
-	"contentFolders": [
-		"content.generated/content"
-	],
+	"authors": ["BSh"],
+	"contentFolders": ["content.generated/content"],
 	"description": "This mod restores Hitman 2's Emote Menu, which was available in Ghost Mode.",
 	"frameworkVersion": "2.33.33",
 	"id": "BSh.GhostEmotes",
@@ -23,9 +19,7 @@
 	"name": "Ghost Emotes",
 	"options": [
 		{
-			"contentFolders": [
-				"content.generated/CamSwitch"
-			],
+			"contentFolders": ["content.generated/CamSwitch"],
 			"enabledByDefault": true,
 			"group": "Key",
 			"name": "Camera Switch",
@@ -33,176 +27,124 @@
 			"type": "select"
 		},
 		{
-			"contentFolders": [
-				"content.generated/DragDropBody"
-			],
+			"contentFolders": ["content.generated/DragDropBody"],
 			"group": "Key",
 			"name": "Drag/Drop Body",
 			"tooltip": "\"B\" on PC",
 			"type": "select"
 		},
 		{
-			"contentFolders": [
-				"content.generated/InstinctMode"
-			],
+			"contentFolders": ["content.generated/InstinctMode"],
 			"group": "Key",
 			"name": "Instinct",
 			"tooltip": "\"Control\" on PC",
 			"type": "select"
 		},
 		{
-			"contentFolders": [
-				"content.generated/Reload"
-			],
+			"contentFolders": ["content.generated/Reload"],
 			"group": "Key",
 			"name": "Reload",
 			"tooltip": "\"R\" on PC",
 			"type": "select"
 		},
 		{
-			"contentFolders": [
-				"content.generated/SneakToggle"
-			],
+			"contentFolders": ["content.generated/SneakToggle"],
 			"group": "Key",
 			"name": "Sneak",
 			"tooltip": "\"C\" on PC",
 			"type": "select"
 		},
 		{
-			"contentFolders": [
-				"content.generated/Surrender"
-			],
+			"contentFolders": ["content.generated/Surrender"],
 			"group": "Key",
 			"name": "Surrender",
 			"tooltip": "\"X\" on PC",
 			"type": "select"
 		},
 		{
-			"contentFolders": [
-				"content.generated/TakeDisguise"
-			],
+			"contentFolders": ["content.generated/TakeDisguise"],
 			"group": "Key",
 			"name": "Disguise",
 			"tooltip": "\"T\" on PC",
 			"type": "select"
 		},
 		{
-			"contentFolders": [
-				"content.generated/Direct F3"
-			],
+			"contentFolders": ["content.generated/Direct F3"],
 			"group": "Key",
 			"name": "Direct F3",
-			"requirements": [
-				"Notex.SimpleKeyEventHelper"
-			],
+			"requirements": ["Notex.SimpleKeyEventHelper"],
 			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
 			"type": "select"
 		},
 		{
-			"contentFolders": [
-				"content.generated/Direct F4"
-			],
+			"contentFolders": ["content.generated/Direct F4"],
 			"group": "Key",
 			"name": "Direct F4",
-			"requirements": [
-				"Notex.SimpleKeyEventHelper"
-			],
+			"requirements": ["Notex.SimpleKeyEventHelper"],
 			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
 			"type": "select"
 		},
 		{
-			"contentFolders": [
-				"content.generated/Direct F5"
-			],
+			"contentFolders": ["content.generated/Direct F5"],
 			"group": "Key",
 			"name": "Direct F5",
-			"requirements": [
-				"Notex.SimpleKeyEventHelper"
-			],
+			"requirements": ["Notex.SimpleKeyEventHelper"],
 			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
 			"type": "select"
 		},
 		{
-			"contentFolders": [
-				"content.generated/Direct F6"
-			],
+			"contentFolders": ["content.generated/Direct F6"],
 			"group": "Key",
 			"name": "Direct F6",
-			"requirements": [
-				"Notex.SimpleKeyEventHelper"
-			],
+			"requirements": ["Notex.SimpleKeyEventHelper"],
 			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
 			"type": "select"
 		},
 		{
-			"contentFolders": [
-				"content.generated/Direct F7"
-			],
+			"contentFolders": ["content.generated/Direct F7"],
 			"group": "Key",
 			"name": "Direct F7",
-			"requirements": [
-				"Notex.SimpleKeyEventHelper"
-			],
+			"requirements": ["Notex.SimpleKeyEventHelper"],
 			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
 			"type": "select"
 		},
 		{
-			"contentFolders": [
-				"content.generated/Direct F8"
-			],
+			"contentFolders": ["content.generated/Direct F8"],
 			"group": "Key",
 			"name": "Direct F8",
-			"requirements": [
-				"Notex.SimpleKeyEventHelper"
-			],
+			"requirements": ["Notex.SimpleKeyEventHelper"],
 			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
 			"type": "select"
 		},
 		{
-			"contentFolders": [
-				"content.generated/Direct F9"
-			],
+			"contentFolders": ["content.generated/Direct F9"],
 			"group": "Key",
 			"name": "Direct F9",
-			"requirements": [
-				"Notex.SimpleKeyEventHelper"
-			],
+			"requirements": ["Notex.SimpleKeyEventHelper"],
 			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
 			"type": "select"
 		},
 		{
-			"contentFolders": [
-				"content.generated/Direct F10"
-			],
+			"contentFolders": ["content.generated/Direct F10"],
 			"group": "Key",
 			"name": "Direct F10",
-			"requirements": [
-				"Notex.SimpleKeyEventHelper"
-			],
+			"requirements": ["Notex.SimpleKeyEventHelper"],
 			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
 			"type": "select"
 		},
 		{
-			"contentFolders": [
-				"content.generated/Direct F11"
-			],
+			"contentFolders": ["content.generated/Direct F11"],
 			"group": "Key",
 			"name": "Direct F11",
-			"requirements": [
-				"Notex.SimpleKeyEventHelper"
-			],
+			"requirements": ["Notex.SimpleKeyEventHelper"],
 			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
 			"type": "select"
 		},
 		{
-			"contentFolders": [
-				"content.generated/Direct F12"
-			],
+			"contentFolders": ["content.generated/Direct F12"],
 			"group": "Key",
 			"name": "Direct F12",
-			"requirements": [
-				"Notex.SimpleKeyEventHelper"
-			],
+			"requirements": ["Notex.SimpleKeyEventHelper"],
 			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
 			"type": "select"
 		}
