@@ -85,8 +85,128 @@
 			"name": "Disguise",
 			"tooltip": "\"T\" on PC",
 			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Direct F3"
+			],
+			"group": "Key",
+			"name": "Direct F3",
+			"requirements": [
+				"Notex.SimpleKeyEventHelper"
+			],
+			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Direct F4"
+			],
+			"group": "Key",
+			"name": "Direct F4",
+			"requirements": [
+				"Notex.SimpleKeyEventHelper"
+			],
+			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Direct F5"
+			],
+			"group": "Key",
+			"name": "Direct F5",
+			"requirements": [
+				"Notex.SimpleKeyEventHelper"
+			],
+			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Direct F6"
+			],
+			"group": "Key",
+			"name": "Direct F6",
+			"requirements": [
+				"Notex.SimpleKeyEventHelper"
+			],
+			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Direct F7"
+			],
+			"group": "Key",
+			"name": "Direct F7",
+			"requirements": [
+				"Notex.SimpleKeyEventHelper"
+			],
+			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Direct F8"
+			],
+			"group": "Key",
+			"name": "Direct F8",
+			"requirements": [
+				"Notex.SimpleKeyEventHelper"
+			],
+			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Direct F9"
+			],
+			"group": "Key",
+			"name": "Direct F9",
+			"requirements": [
+				"Notex.SimpleKeyEventHelper"
+			],
+			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Direct F10"
+			],
+			"group": "Key",
+			"name": "Direct F10",
+			"requirements": [
+				"Notex.SimpleKeyEventHelper"
+			],
+			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Direct F11"
+			],
+			"group": "Key",
+			"name": "Direct F11",
+			"requirements": [
+				"Notex.SimpleKeyEventHelper"
+			],
+			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
+			"type": "select"
+		},
+		{
+			"contentFolders": [
+				"content.generated/Direct F12"
+			],
+			"group": "Key",
+			"name": "Direct F12",
+			"requirements": [
+				"Notex.SimpleKeyEventHelper"
+			],
+			"tooltip": "Doesn't require aiming to press the key. Requires SimpleKeyEventHelper!",
+			"type": "select"
 		}
 	],
 	"updateCheck": "https://github.com/bennett-sh/hm-ghost-emotes/releases/latest/download/updates.json",
-	"version": "1.0.0"
+	"version": "1.1.0"
 }
