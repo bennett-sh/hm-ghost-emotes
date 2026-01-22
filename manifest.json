@@ -1,15 +1,14 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "1.0.0",
-	"id": "BSh.GhostEmotes",
-	"name": "Ghost Emotes",
+	"authors": [
+		"BSh"
+	],
+	"contentFolders": [
+		"content.generated/content"
+	],
 	"description": "This mod restores Hitman 2's Emote Menu, which was available in Ghost Mode.",
-	"authors": ["BSh"],
-	"contentFolders": ["content.generated/content"],
-	"frameworkVersion": "2.26.1",
-	"localisedLines": {
-		"002D645EB75FC9BC": "UI_GHOST_EMOTES"
-	},
+	"frameworkVersion": "2.33.33",
+	"id": "BSh.GhostEmotes",
 	"localisation": {
 		"english": {
 			"UI_GHOST_EMOTES": "Ghost Emotes"
@@ -18,57 +17,76 @@
 			"UI_GHOST_EMOTES": "Geist Emotes"
 		}
 	},
+	"localisedLines": {
+		"002D645EB75FC9BC": "UI_GHOST_EMOTES"
+	},
+	"name": "Ghost Emotes",
 	"options": [
 		{
-			"name": "Camera Switch",
-			"group": "Key",
-			"type": "select",
-			"contentFolders": ["content.generated/CamSwitch"],
+			"contentFolders": [
+				"content.generated/CamSwitch"
+			],
 			"enabledByDefault": true,
-			"tooltip": "\"V\" on PC"
+			"group": "Key",
+			"name": "Camera Switch",
+			"tooltip": "\"V\" on PC",
+			"type": "select"
 		},
 		{
+			"contentFolders": [
+				"content.generated/DragDropBody"
+			],
+			"group": "Key",
 			"name": "Drag/Drop Body",
-			"group": "Key",
-			"type": "select",
-			"contentFolders": ["content.generated/DragDropBody"],
-			"tooltip": "\"B\" on PC"
+			"tooltip": "\"B\" on PC",
+			"type": "select"
 		},
 		{
+			"contentFolders": [
+				"content.generated/InstinctMode"
+			],
+			"group": "Key",
 			"name": "Instinct",
-			"group": "Key",
-			"type": "select",
-			"contentFolders": ["content.generated/InstinctMode"],
-			"tooltip": "\"Control\" on PC"
+			"tooltip": "\"Control\" on PC",
+			"type": "select"
 		},
 		{
+			"contentFolders": [
+				"content.generated/Reload"
+			],
+			"group": "Key",
 			"name": "Reload",
-			"group": "Key",
-			"type": "select",
-			"contentFolders": ["content.generated/Reload"],
-			"tooltip": "\"R\" on PC"
+			"tooltip": "\"R\" on PC",
+			"type": "select"
 		},
 		{
+			"contentFolders": [
+				"content.generated/SneakToggle"
+			],
+			"group": "Key",
 			"name": "Sneak",
-			"group": "Key",
-			"type": "select",
-			"contentFolders": ["content.generated/SneakToggle"],
-			"tooltip": "\"C\" on PC"
+			"tooltip": "\"C\" on PC",
+			"type": "select"
 		},
 		{
+			"contentFolders": [
+				"content.generated/Surrender"
+			],
+			"group": "Key",
 			"name": "Surrender",
-			"group": "Key",
-			"type": "select",
-			"contentFolders": ["content.generated/Surrender"],
-			"tooltip": "\"X\" on PC"
+			"tooltip": "\"X\" on PC",
+			"type": "select"
 		},
 		{
-			"name": "Disguise",
+			"contentFolders": [
+				"content.generated/TakeDisguise"
+			],
 			"group": "Key",
-			"type": "select",
-			"contentFolders": ["content.generated/TakeDisguise"],
-			"tooltip": "\"T\" on PC"
+			"name": "Disguise",
+			"tooltip": "\"T\" on PC",
+			"type": "select"
 		}
 	],
-	"updateCheck": "https://github.com/bennett-sh/hm-ghost-emotes/releases/latest/download/updates.json"
+	"updateCheck": "https://github.com/bennett-sh/hm-ghost-emotes/releases/latest/download/updates.json",
+	"version": "1.0.0"
 }
